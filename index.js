@@ -25,4 +25,4 @@ function displayTime(event) {
 }
 
 let city = document.querySelector("#cityMenu");
-city.addEventListener("click", displayTime);
+city.addEventListener("change", displayTime);
